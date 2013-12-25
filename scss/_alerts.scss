@@ -1,0 +1,22 @@
+
+
+
+/* ALERTS */
+
+.alert{
+	padding:15px;
+	margin:10px 0;
+	border-radius:3px;
+	&.primary{
+		background:lighten($primary, 40%);
+		border:1px lighten($primary, 30%) solid;
+	}
+	&.success{
+		background:lighten($success, 40%);
+		border:1px lighten($success, 30%) solid;
+	}
+	&.danger{
+		background:lighten($danger, 40%);
+		border:1px lighten($danger, 30%) solid;
+	}
+}

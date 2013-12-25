@@ -1,0 +1,42 @@
+
+
+
+/* BUTTONS */
+
+.button{
+	border:0;
+	border-radius:4px;
+	outline:0;
+	&.small{
+		padding:7px 20px;
+		font-size:.95em;
+	}
+	&.large{
+		padding:15px 45px;
+		font-size:1.1em;
+	}
+	&.primary{
+		color:#FFF;
+		background:$primary;
+		border-bottom:2px darken($primary, 6%) solid;
+		&:hover{
+			background:darken($primary, 3%);
+		}
+	}
+	&.success{
+		color:#FFF;
+		background:$success;
+		border-bottom:2px darken($success, 6%) solid;
+		&:hover{
+			background:darken($success, 3%);
+		}
+	}
+	&.danger{
+		color:#FFF;
+		background:$danger;
+		border-bottom:2px darken($danger, 6%) solid;
+		&:hover{
+			background:darken($danger, 3%);
+		}
+	}
+}

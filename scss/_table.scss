@@ -1,0 +1,27 @@
+
+
+
+/* TABLE */
+
+.table {
+	width:100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	text-align:left;
+	th,td{
+		border-bottom:2px lighten(#CCC, 2%) solid;
+		padding:8px 12px;
+	}
+	td{
+		border-bottom:1px lighten(#CCC, 3%) solid;
+	}
+	&.table-striped tbody tr:nth-child(2n+1) {
+	  background-color: lighten(#EEE, 2%);
+	}
+	&.table-bordered{
+		border:1px #CCC solid;
+		td,th{
+			border:1px #CCC solid;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+
+
+
+/* NAVBAR */
+
+.navbar{
+	background:$black;
+	padding:10px;
+	margin-bottom:10px;
+	height:30px;
+	h4{
+    color:#FFF;
+    font-weight:200;
+  }
+	li{
+		display:inline-block;
+		padding:.3em 15px 0 0;
+		&:last-child{
+			padding-right:0;
+		}
+	}
+	a{
+		font-size:.95em;
+		text-decoration:none;
+		color:#FFF;
+	}
+	&.fixed{
+		position:fixed;
+		left:0;
+		right:0;
+		top:0;
+	}
+}
