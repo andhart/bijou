@@ -6,7 +6,7 @@ Example: http://andhart.github.io/bijou/
 
 If you want to contribute ideas or see the roadplan, there's a Trello: https://trello.com/b/2Gklk2lG
 
-Browser Support: Checked and tested in the latest Firefox, Safari, Chrome. 
+Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, Internet Explorer. 
 
 ###Navbar:
 
