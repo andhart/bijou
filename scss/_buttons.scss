@@ -18,7 +18,6 @@
 	&.primary{
 		color:#FFF;
 		background:$primary;
-		border-bottom:2px darken($primary, 6%) solid;
 		&:hover{
 			background:darken($primary, 3%);
 		}
@@ -26,7 +25,6 @@
 	&.success{
 		color:#FFF;
 		background:$success;
-		border-bottom:2px darken($success, 6%) solid;
 		&:hover{
 			background:darken($success, 3%);
 		}
@@ -34,7 +32,6 @@
 	&.danger{
 		color:#FFF;
 		background:$danger;
-		border-bottom:2px darken($danger, 6%) solid;
 		&:hover{
 			background:darken($danger, 3%);
 		}

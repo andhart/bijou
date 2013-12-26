@@ -4,12 +4,13 @@
 /* NAVBAR */
 
 .navbar{
-	background:$black;
+	background:#FFF;
 	padding:10px;
 	margin-bottom:10px;
+	border-bottom:1px #DDD solid;
 	height:30px;
 	h4{
-    color:#FFF;
+    color:$black;
     font-weight:200;
   }
 	li{
@@ -18,11 +19,6 @@
 		&:last-child{
 			padding-right:0;
 		}
-	}
-	a{
-		font-size:.95em;
-		text-decoration:none;
-		color:#FFF;
 	}
 	&.fixed{
 		position:fixed;

@@ -1,0 +1,12 @@
+
+
+/* LINKS */
+
+a{
+	font-size:.95em;
+	text-decoration:none;
+	color:$primary;
+	&:hover{
+		color:darken($primary, 15%);
+	}
+}
