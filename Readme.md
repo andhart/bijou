@@ -1,7 +1,8 @@
 #Bijou
-##A beautiful CSS framework under 2kb (minified and gzip)
+A beautiful CSS framework under 2kb (minified and gzip)
 
 
+Browser Support: Checked and tested in the latest Firefox, Safari, Chrome. 
 
 ###Navbar:
 
