@@ -10,7 +10,7 @@ Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and I
 
 ###Navbar:
 
-```
+```html
 <div class='navbar fixed'>
    <div class='container'>
       <h4 class='pull-left'>Bijou</h4>
@@ -20,7 +20,7 @@ Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and I
 
 or a navbar with navigation:
 
-```
+```html
 <div class='navbar fixed'>
    <div class='container'>
       <h4 class='pull-left'>Bijou</h4>
@@ -40,7 +40,7 @@ Add a `fixed` class to the navbar to make it fixed to the top of the screen (Mak
 
 ###Table:
 
-```
+```html
 <table class='table'>
    <thead>
       <tr>
@@ -67,7 +67,7 @@ This will style just a plain table. If you want it striped, add the `table-strip
 
 ###Buttons
 
-```
+```html
 <button class='button danger large'>Test</button>
 <button class='button primary large'>Test</button>
 <button class='button success large'>Test</button>
@@ -83,7 +83,7 @@ Large buttons have the `large` class, while small have the `small` class. Easy, 
 
 ###Alerts
 
-```
+```html
 <div class='alert primary'><p>Test</p></div>
 <div class='alert success'><p>Test</p></div>
 <div class='alert danger'><p>Test</p></div>
@@ -97,7 +97,7 @@ Bijou has a responsive 10 column grid.
 
 For an example, the following will create a one column span and and a nine-column span:
 
-```
+```html
 <div class='row'>
    <div class='span one'>ONE</div><div class='span nine'>NINE</div>
 </div>
