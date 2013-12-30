@@ -3,10 +3,13 @@
 
 /* ALERTS */
 
-.alert{
+.alert {
 	padding:15px;
 	margin:10px 0;
+	margin-bottom:1.11111rem;
 	border-radius:3px;
+	display:block;
+	position:relative;
 	&.primary{
 		background:lighten($primary, 40%);
 		border:1px lighten($primary, 30%) solid;
@@ -19,4 +22,9 @@
 		background:lighten($danger, 40%);
 		border:1px lighten($danger, 30%) solid;
 	}
+	.close {
+		float:right;
+		top:50%;
+	}
+	&.closeable:active, .closeable:active { display:none; }
 }

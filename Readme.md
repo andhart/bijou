@@ -6,7 +6,7 @@ Example: http://andhart.github.io/bijou/
 
 If you want to contribute ideas or see the roadplan, there's a Trello: https://trello.com/b/2Gklk2lG
 
-Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and IE9+. 
+Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and IE9+.
 
 ###Navbar:
 
@@ -34,7 +34,7 @@ or a navbar with navigation:
 
 ```
 
-Add a `fixed` class to the navbar to make it fixed to the top of the screen (Make sure you also add `margin-top:50px` to the body if you make it fixed). 
+Add a `fixed` class to the navbar to make it fixed to the top of the screen (Make sure you also add `margin-top:50px` to the body if you make it fixed).
 
 ***
 
@@ -84,9 +84,22 @@ Large buttons have the `large` class, while small have the `small` class. Easy, 
 ###Alerts
 
 ```html
-<div class='alert primary'><p>Test</p></div>
-<div class='alert success'><p>Test</p></div>
-<div class='alert danger'><p>Test</p></div>
+<div class='alert primary'>Test</div>
+<div class='alert success'>Test</div>
+<div class='alert danger'>Test</div>
+```
+
+For alerts which can be hidden when clicked on, add the `closeable` class to the `div` and `<a href='#' class='close closeable'>&times;</a>` inside it.
+
+```html
+<div class='alert primary closeable'>
+  Test
+  <a href='#' class='close closeable'>&times;</a>
+</div>
+<div class='alert success closeable'>
+  Test
+  <a href='#' class='close closeable'>&times;</a>
+</div>
 ```
 
 ***
