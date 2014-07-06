@@ -93,7 +93,7 @@ Large buttons have the `large` class, while small have the `small` class. Easy, 
 
 ###Grid
 
-Bijou has a responsive 10 column grid.
+Bijou has a responsive 12 column grid.
 
 For an example, the following will create a one column span and and a nine-column span:
 
