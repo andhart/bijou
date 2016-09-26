@@ -1,14 +1,14 @@
-#Bijou
+#宝石
 
-A beautiful CSS framework under 2kb (minified and gzip)
+在2kb漂亮的CSS框架（压缩和gzip）
 
-Example: http://andhart.github.io/bijou/
+例子：http：/ / / / andhart.github.io宝石
 
-If you want to contribute ideas or see the roadplan, there's a Trello: https://trello.com/b/2Gklk2lG
+如果你想贡献自己的想法或者看到roadplan，还有Trello：http：／／trello.com / B / 2gklk2lg
 
-Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and IE9+. 
+浏览器支持：检查并在最新的Firefox，Safari和Chrome，IE9的测试。
 
-###Navbar:
+###导航:
 
 ```html
 <div class='navbar fixed'>
@@ -25,81 +25,81 @@ or a navbar with navigation:
    <div class='container'>
       <h4 class='pull-left'>Bijou</h4>
       <ul class='pull-right'>
-         <li><a href='#'>Link</a></li>
-         <li><a href='#'>Link</a></li>
-         <li><a href='#'>Link</a></li>
+         <li><a href='#'>链接</a></li>
+         <li><a href='#'>链接</a></li>
+         <li><a href='#'>链接</a></li>
       </ul>
    </div>
 </div>
 
 ```
 
-Add a `fixed` class to the navbar to make it fixed to the top of the screen (Make sure you also add `margin-top:50px` to the body if you make it fixed). 
+添加一个固定的类导航栏让它固定到屏幕顶端（确保你也加边距：50px如果你的身体使它固定）。
 
 ***
 
-###Table:
+###表:
 
 ```html
 <table class='table'>
    <thead>
       <tr>
-         <th>Test</th>
-         <th>Test</th>
-         <th>Test</th>
-         <th>Test</th>
+         <th>测试</th>
+         <th>测试</th>
+         <th>测试</th>
+         <th>测试</th>
       </tr>
     </thead>
     <tbody>
        <tr>
-         <td>Test</td>
-         <td>Test</td>
-         <td>Test</td>
-         <td>Test</td>
+         <td>测试</td>
+         <td>测试</td>
+         <td>测试</td>
+         <td>测试</td>
        </tr>
     </tbody>
 </table>
 ```
 
 This will style just a plain table. If you want it striped, add the `table-striped` class, or if you want it bordered, the `table-bordered` class.
-
+这只是一个普通的表。如果你想要它tiáo wén，添加 `表tiáo wén` 类，或如果你想要它pí lín，`类表格边框`
 ***
 
-###Buttons
+
+###按钮
 
 ```html
-<button class='button danger large'>Test</button>
-<button class='button primary large'>Test</button>
-<button class='button success large'>Test</button>
+<button class='button danger large'>测试</button>
+<button class='button primary large'>测试</button>
+<button class='button success large'>测试</button>
 
-<button class='button danger small'>Test</button>
-<button class='button primary small'>Test</button>
-<button class='button success small'>Test</button>
+<button class='button danger small'>测试</button>
+<button class='button primary small'>测试</button>
+<button class='button success small'>测试</button>
 ```
 
-Large buttons have the `large` class, while small have the `small` class. Easy, isn't it?
+大的按钮 `大`类，虽然小有`小`类。很容易，不是吗？
 
 ***
 
-###Alerts
+###警报
 
 ```html
-<div class='alert primary'><p>Test</p></div>
-<div class='alert success'><p>Test</p></div>
-<div class='alert danger'><p>Test</p></div>
+<div class='alert primary'><p>测试</p></div>
+<div class='alert success'><p>测试</p></div>
+<div class='alert danger'><p>测试</p></div>
 ```
 
 ***
 
-###Grid
+###网格
 
-Bijou has a responsive 12 column grid.
+宝石具有敏感的12列网格。
 
-For an example, the following will create a one column span and and a nine-column span:
-
+例如，以下将创造一一柱和一九柱跨度跨度：
 ```html
 <div class='row'>
-   <div class='span one'>ONE</div><div class='span nine'>NINE</div>
+   <div class='span one'>一</div><div class='span nine'>九</div>
 </div>
 ```
 
