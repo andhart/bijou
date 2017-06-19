@@ -1,4 +1,4 @@
-#Bijou
+# Bijou
 
 A beautiful CSS framework under 2kb (minified and gzip)
 
@@ -8,7 +8,7 @@ If you want to contribute ideas or see the roadplan, there's a Trello: https://t
 
 Browser Support: Checked and tested in the latest Firefox, Safari, Chrome, and IE9+. 
 
-###Navbar:
+### Navbar:
 
 ```html
 <div class='navbar fixed'>
@@ -38,7 +38,7 @@ Add a `fixed` class to the navbar to make it fixed to the top of the screen (Mak
 
 ***
 
-###Table:
+### Table:
 
 ```html
 <table class='table'>
@@ -65,7 +65,7 @@ This will style just a plain table. If you want it striped, add the `table-strip
 
 ***
 
-###Buttons
+### Buttons
 
 ```html
 <button class='button danger large'>Test</button>
@@ -81,7 +81,7 @@ Large buttons have the `large` class, while small have the `small` class. Easy, 
 
 ***
 
-###Alerts
+### Alerts
 
 ```html
 <div class='alert primary'><p>Test</p></div>
@@ -91,7 +91,7 @@ Large buttons have the `large` class, while small have the `small` class. Easy, 
 
 ***
 
-###Grid
+### Grid
 
 Bijou has a responsive 12 column grid.
 
